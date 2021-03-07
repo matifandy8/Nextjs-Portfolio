@@ -16,13 +16,14 @@ export default function Proyects({ proyects }) {
 
         <div className={styles.main}>
           <h1>My Proyects</h1>
-
-          <div className={styles.proyects}>
-            <h3>{proyects.name}</h3>
-            <h6>{proyects.position}</h6>
-            <img src={proyects.image} alt="proyect" />
-            <p>{proyects.description}</p>
-          </div>
+          {proyects.map((proyect) => (
+            <div className={styles.proyects}>
+              <h3>{proyect.name}</h3>
+              <h6>{proyect.technologies}</h6>
+              <img src={proyect.image} alt="proyect" />
+              <p>{proyect.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </>

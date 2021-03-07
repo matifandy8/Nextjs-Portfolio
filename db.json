@@ -12,22 +12,36 @@
       "id": 2,
       "name": "Chat Live",
       "technologies": "Reactjs, Nodejs, Socketio.",
-      "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png",
+      "image": "https://i.ibb.co/TT5SsmP/Chat-Live-App.png",
       "description": "Chat live"
     },
     {
     "id": 3,
       "name": "Mercado Libre Clone",
       "technologies": "Reactjs, Redux, NodeJs, ExpressJs, Paypal-Api",
-      "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png",
+      "image": "https://i.ibb.co/n8V2Jk6/Mercado-Libre-Clone-image.png",
       "description": "Ecommerse"
     },
     {
     "id": 4,
       "name": "Amazon Clone",
       "technologies": "ReactJs, Redux, Firebase, Paypal-api",
-      "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png",
+      "image": "https://i.ibb.co/MPGGZ6V/amazon.png",
       "description": "Ecommerse"
     }
+    {
+      "id": 5,
+        "name": "Quiz App",
+        "technologies": "ReactJs, Typescript, Api-trivia, Jest",
+        "image": "https://i.ibb.co/y8LMDV5/quiz-typescript.png",
+        "description": "Quiz"
+      },
+      {
+        "id": 6,
+          "name": "Ecommerse Mern",
+          "technologies": "ReactJs, Redux, NodeJs, ExpressJs, MongoDb, React-hook-form",
+          "image": "https://i.ibb.co/98Xqdqd/Ecommerse-MERN.png",
+          "description": "Ecommerse"
+        }
 ]
 }
