@@ -1,8 +1,33 @@
+
 {
-    "proyects": {
+    "proyects": [
+    {
+      "id": 1,
       "name": "E-mercado",
       "technologies": "Html,Css,Bootstrap,Javascript",
       "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png",
       "description": "Ecommerse"
+    },
+    {
+      "id": 2,
+      "name": "Chat Live",
+      "technologies": "Reactjs, Nodejs, Socketio.",
+      "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png",
+      "description": "Chat live"
+    },
+    {
+    "id": 3,
+      "name": "Mercado Libre Clone",
+      "technologies": "Reactjs, Redux, NodeJs, ExpressJs, Paypal-Api",
+      "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png",
+      "description": "Ecommerse"
+    },
+    {
+    "id": 4,
+      "name": "Amazon Clone",
+      "technologies": "ReactJs, Redux, Firebase, Paypal-api",
+      "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png",
+      "description": "Ecommerse"
     }
-  }
+]
+}

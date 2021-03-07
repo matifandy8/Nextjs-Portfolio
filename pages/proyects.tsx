@@ -30,7 +30,7 @@ export default function Proyects({ proyects }) {
 }
 export const getServerSideProps = async (pageContext) => {
   const apiResponse = await fetch(
-    "https://my-json-server.typicode.com/portexe/next-news/employeeOfTheMonth"
+    "https://my-json-server.typicode.com/matifandy8/nextjs-portfolio/proyects"
   );
 
   const proyects = await apiResponse.json();
