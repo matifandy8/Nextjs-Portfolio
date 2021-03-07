@@ -1,6 +1,7 @@
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import { Toolbar } from "../components/toolbar";
+import { Footer } from "../components/footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
           <h1>Matias Fandiño</h1>
           <h3>Front-End Developer</h3>
         </div>
+
+        <Footer />
       </div>
     </>
   );

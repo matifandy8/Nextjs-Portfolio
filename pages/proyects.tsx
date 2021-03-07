@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Footer } from "../components/footer";
 import { Toolbar } from "../components/toolbar";
 import styles from "../styles/proyects.module.css";
 
@@ -25,6 +26,8 @@ export default function Proyects({ proyects }) {
             </div>
           ))}
         </div>
+
+        <Footer />
       </div>
     </>
   );
