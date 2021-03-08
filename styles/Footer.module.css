@@ -1,12 +1,21 @@
 .main {
-  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
   z-index: 100;
+  border-top: 2px solid rgba(252, 236, 7, 0.397);
   bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
-  height: 100px;
+  height: 7.55rem;
   background-color: rgba(1, 5, 7, 0.5);
   color: white;
   font-family: "Arial Narrow Bold", sans-serif;
+}
+.column {
+  margin: 0.9375rem;
+}
+.column div {
+  margin: 1.25rem;
 }

@@ -1,16 +1,20 @@
+.title {
+  text-align: center;
+}
+
 .main {
   flex: 1;
   display: flex;
   align-items: center;
-  margin-top: 100px;
+  margin: 3em 6em;
   flex-wrap: wrap;
 }
 
 .proyects {
   text-align: center;
-  margin: 0px 50px;
+  margin: 0px 3.125em;
 }
 .proyects img {
-  width: 250px;
+  width: 15.625em;
   border-radius: 10%;
 }

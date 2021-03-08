@@ -14,8 +14,14 @@ export default function Home() {
         <Toolbar />
 
         <div className={styles.main}>
-          <h1>Matias Fandiño</h1>
-          <h3>Front-End Developer</h3>
+          <div className={styles.presentation}>
+            <h1>Matias Fandiño</h1>
+            <h3>
+              Hello, I am a Front-End developer. I was born in Uruguay in 1997.
+              Currently, I am based in Uruguay.
+            </h3>
+            <button>Proyects</button>
+          </div>
         </div>
 
         <Footer />

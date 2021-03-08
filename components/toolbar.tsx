@@ -9,6 +9,8 @@ export const Toolbar = () => {
       <div className={styles.logo} onClick={() => router.push("/")}>
         Matias Fandiño
       </div>
+      <div onClick={() => router.push("/")}>Home</div>
+      <div onClick={() => router.push("/about")}>About</div>
       <div onClick={() => router.push("/proyects")}>Proyects</div>
       <div onClick={() => router.push("/contact")}>Contact</div>
       {/* <div

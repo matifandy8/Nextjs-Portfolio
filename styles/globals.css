@@ -1,10 +1,10 @@
 html,
 body {
-  --tw-bg-opacity: 1;
-  background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+  background-color: rgba(29, 29, 29, 0.83);
   padding: 0;
   margin: 0;
-  font-family: Helvetica Neue, sans-serif;
+  font-family: "Segoe UI Emoji", "Segoe UI Symbol";
+  letter-spacing: 1.5px;
 }
 
 a {
@@ -12,8 +12,7 @@ a {
   text-decoration: none;
 }
 h1 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 * {
