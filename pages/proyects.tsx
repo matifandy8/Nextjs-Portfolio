@@ -17,9 +17,9 @@ export default function Proyects({ proyects }) {
         <h1 className={styles.title}>My Proyects</h1>
         <div className={styles.main}>
           {proyects.map((proyect) => (
-            <div className={styles.proyects}>
-              <h3>{proyect.name}</h3>
-              <h6>{proyect.technologies}</h6>
+            <div className={styles.proyect}>
+              <h2 className={styles.name}>{proyect.name}</h2>
+              <h5 className={styles.technologies}>{proyect.technologies}</h5>
               <img src={proyect.image} alt="proyect" />
               <p>{proyect.description}</p>
             </div>

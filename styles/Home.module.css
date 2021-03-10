@@ -5,7 +5,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  margin-left: 5em;
 }
 .presentation h1 {
   margin: 0;
