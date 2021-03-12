@@ -3,13 +3,13 @@
 }
 .main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
   grid-gap: 1em;
   justify-items: center;
 }
 
 .proyect {
-  border: 1px solid black;
+  text-align: center;
 }
 .name {
   color: rgb(179, 179, 179);
@@ -18,6 +18,6 @@
   color: rgb(179, 179, 179);
 }
 .proyect img {
-  width: 17.625em;
+  max-width: 15.625em;
   border-radius: 5%;
 }

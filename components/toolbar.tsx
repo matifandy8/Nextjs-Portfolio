@@ -10,8 +10,8 @@ export const Toolbar = () => {
         Matias Fandiño
       </div>
       <div onClick={() => router.push("/")}>Home</div>
-      <div onClick={() => router.push("/about")}>About</div>
       <div onClick={() => router.push("/proyects")}>Proyects</div>
+      <div onClick={() => router.push("/learning")}>Learning Journal</div>
       <div onClick={() => router.push("/contact")}>Contact</div>
       {/* <div
         onClick={() => (window.location.href = "https://github.com/matifandy8")}
