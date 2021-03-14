@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
-  border-top: 15px solid rgba(252, 236, 7, 0.542);
+  border-top: 5px solid rgba(252, 236, 7, 0.542);
   color: white;
   font-size: 1.2rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -17,7 +17,7 @@
 }
 .main div {
   cursor: pointer;
-  margin-left: 1.25rem;
+  margin-left: 1.45rem;
 }
 /* .main div:hover {
   color: rgb(232, 255, 127);

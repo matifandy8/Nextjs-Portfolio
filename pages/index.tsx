@@ -20,7 +20,7 @@ export default function Home() {
               Hello, I am a Front-End developer. I was born in Uruguay in 1997.
               Currently, I am based in Uruguay.
             </h3>
-            <button>Proyects</button>
+            <button>Resume</button>
           </div>
         </div>
 

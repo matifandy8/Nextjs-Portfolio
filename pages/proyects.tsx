@@ -21,7 +21,6 @@ export default function Proyects({ proyects }) {
               <h2 className={styles.name}>{proyect.name}</h2>
               <h5 className={styles.technologies}>{proyect.technologies}</h5>
               <img src={proyect.image} alt="proyect" />
-              <p>{proyect.description}</p>
             </div>
           ))}
         </div>
