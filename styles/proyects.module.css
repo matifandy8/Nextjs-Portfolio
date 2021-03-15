@@ -18,6 +18,10 @@
   color: rgb(179, 179, 179);
 }
 .proyect img {
+  cursor:pointer;
   max-width: 15.625em;
   border-radius: 5%;
+}
+.proyect img:hover{
+  transform: scale(1.1);
 }
