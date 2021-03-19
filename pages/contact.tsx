@@ -26,14 +26,23 @@ export default function Home() {
       <div className="page-container">
         <Toolbar />
 
-        <div>
-          <h1>Contact</h1>
-          <h3>
-            I am always waiting for a message from you. I would be happy to hear
-            from you for an interview and a possible job offer. Or you can just
-            talk to me. Don't hesitate to contact me.😎
-          </h3>
+        <div className={styles.formContainer}>
+          <div className={styles.title}>
+            <h1>Contact</h1>
+            <h3>
+              I am always waiting for a message from you. I would be happy to
+              hear from you for an interview and a possible job offer. Or you
+              can just talk to me. Don't hesitate to contact me.😎
+            </h3>
+            <img src="https://i.ibb.co/vcYpvn9/undraw-Forms-re-pkrt.png" />
+          </div>
           <div className={styles.form}>
+            <h1>Contact Form</h1>
+            <h3>
+              If my introduction of skill and character has convinced you, I
+              would be happy to hear from you for an interview and a possible
+              job offer.
+            </h3>
             <form onSubmit={onSubmit}>
               <div>
                 <input
@@ -56,7 +65,7 @@ export default function Home() {
                 {errors.email && <div className="error">Enter your Email</div>}
               </div>
               <div>
-                <input
+                <textarea
                   ref={register({ required: true })}
                   id="msj"
                   name="msj"
