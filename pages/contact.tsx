@@ -74,7 +74,7 @@ export default function Home() {
                 />
                 {errors.msj && <div className="error">Enter your Message</div>}
               </div>
-              <button type="submit">Save</button>
+              <button type="submit">Send</button>
             </form>
           </div>
         </div>
