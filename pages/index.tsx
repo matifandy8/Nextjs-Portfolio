@@ -22,6 +22,7 @@ export default function Home() {
             </h3>
             <button>Resume</button>
           </div>
+          <img src="https://upgraphy.com/wp-content/uploads/edd/2020/09/web-developer-vector-illustration-5de192c700231.png" />
         </div>
 
         <Footer />

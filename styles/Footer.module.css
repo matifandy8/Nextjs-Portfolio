@@ -9,7 +9,7 @@
   width: 100%;
   text-align: center;
   height: 7.55rem;
-  background-color: rgba(1, 5, 7, 0.5);
+  background-color: rgb(0, 0, 0);
   color: white;
   font-family: "Arial Narrow Bold", sans-serif;
 }
@@ -19,14 +19,14 @@
 .column div {
   margin: 1.25rem;
 }
-.social div{
-  display:flex;
+.social div {
+  display: flex;
   flex-direction: row;
 }
-.social svg{
-  cursor:pointer;
+.social svg {
+  cursor: pointer;
   font-size: 2em;
 }
-.social svg:hover{
-  fill:yellow;
+.social svg:hover {
+  fill: yellow;
 }

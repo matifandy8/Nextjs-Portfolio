@@ -12,16 +12,18 @@
   text-align: center;
 }
 .name {
+  font-size: 30px;
   color: rgb(179, 179, 179);
 }
 .technologies {
   color: rgb(179, 179, 179);
 }
 .proyect img {
-  cursor:pointer;
+  cursor: pointer;
   max-width: 15.625em;
   border-radius: 5%;
+  border: 10px solid #3a4101;
 }
-.proyect img:hover{
+.proyect img:hover {
   transform: scale(1.1);
 }

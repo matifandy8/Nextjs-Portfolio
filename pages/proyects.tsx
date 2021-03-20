@@ -15,6 +15,7 @@ export default function Proyects({ proyects }) {
       <div className="page-container">
         <Toolbar />
         <h1 className={styles.title}>My Proyects</h1>
+
         <div className={styles.main}>
           {proyects.map((proyect) => (
             <div className={styles.proyect}>
