@@ -34,7 +34,6 @@ export default function Home() {
               hear from you for an interview and a possible job offer. Or you
               can just talk to me. Don't hesitate to contact me.😎
             </h3>
-            <img src="https://i.ibb.co/vcYpvn9/undraw-Forms-re-pkrt.png" />
           </div>
           <div className={styles.form}>
             <h1>Contact Form</h1>

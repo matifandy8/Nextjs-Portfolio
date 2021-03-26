@@ -15,15 +15,15 @@
   color: rgb(232, 255, 127);
   margin-right: 40%;
 }
-.main div {
+.left {
+  display: flex;
+}
+.left div {
   cursor: pointer;
   margin-left: 1.45rem;
 }
-/* .main div:hover {
-  color: rgb(232, 255, 127);
-  border-bottom: 1px solid rgb(232, 255, 127);
-} */
-.main div {
+
+.left div {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
@@ -32,7 +32,7 @@
   position: relative;
   overflow: hidden;
 }
-.main div:before {
+.left div:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -48,6 +48,12 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.main div:hover:before {
+.left div:hover:before {
   right: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .logo {
+    margin-right: 20%;
+  }
 }

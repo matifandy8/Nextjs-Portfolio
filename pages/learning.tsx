@@ -38,15 +38,15 @@ export default function Learning({ posts }) {
 
         <div className={styles.feed}>
           {mappedPosts.length ? (
-            mappedPosts.map((p, index) => (
+            mappedPosts.map((post, index) => (
               <div
-                onClick={() => router.push(`/post/${p.slug.current}`)}
+                onClick={() => router.push(`/post/${post.slug.current}`)}
                 key={index}
                 className={styles.post}
               >
-                <h3>{p.title}</h3>
-                <img className={styles.mainImage} src={p.mainImage} />
-                <p>{p.body}</p>
+                <h3>{post.title}</h3>
+                <img className={styles.mainImage} src={post.mainImage} />
+                <p>{post.body}</p>
               </div>
             ))
           ) : (
