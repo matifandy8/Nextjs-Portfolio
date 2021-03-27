@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <div className={styles.main}>
       <div className={styles.column}>
-        <span>Follow me</span>
+        <h3>Follow me</h3>
         <div className={styles.social}>
           <div>
             <div
@@ -31,8 +31,13 @@ export const Footer = () => {
         </div>
       </div>
       <div className={styles.column}>
-        <div onClick={() => router.push("/proyects")}>Proyects</div>
-        <div onClick={() => router.push("/contact")}>Contact</div>
+        <h3>Site Map</h3>
+        <div className={styles.sitemap}>
+          <div onClick={() => router.push("/")}>Home</div>
+          <div onClick={() => router.push("/proyects")}>Proyects</div>
+          <div onClick={() => router.push("/learning")}>Learning</div>
+          <div onClick={() => router.push("/contact")}>Contact</div>
+        </div>
       </div>
     </div>
   );
