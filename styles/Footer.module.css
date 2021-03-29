@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+
 .main {
   display: flex;
   justify-content: space-around;
@@ -11,7 +13,7 @@
   height: 9.65rem;
   background-color: rgb(0, 0, 0);
   color: white;
-  font-family: "Arial Narrow Bold", sans-serif;
+  font-family: "Francois One", sans-serif;
 }
 .column {
   margin: 0.9375rem;

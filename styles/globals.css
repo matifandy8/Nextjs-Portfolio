@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:wght@300&display=swap");
+
 html,
 body {
   background-color: rgb(14, 14, 14);
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Open Sans", sans-serif;
   letter-spacing: 1.5px;
 }
 
@@ -12,7 +15,7 @@ a {
   text-decoration: none;
 }
 h1 {
-  font-family: "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Francois One", sans-serif;
 }
 
 * {
