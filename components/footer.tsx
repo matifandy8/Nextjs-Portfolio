@@ -35,7 +35,6 @@ export const Footer = () => {
         <div className={styles.sitemap}>
           <div onClick={() => router.push("/")}>Home</div>
           <div onClick={() => router.push("/proyects")}>Proyects</div>
-          <div onClick={() => router.push("/learning")}>Learning</div>
           <div onClick={() => router.push("/contact")}>Contact</div>
         </div>
       </div>
