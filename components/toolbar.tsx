@@ -11,7 +11,7 @@ export const Toolbar = () => {
       </div>
       <div className={styles.left}>
         <div onClick={() => router.push("/")}>Home</div>
-        <div onClick={() => router.push("/proyects")}>Proyects</div>
+        <div onClick={() => router.push("/projects")}>Projects</div>
         <div onClick={() => router.push("/contact")}>Contact</div>
       </div>
     </div>

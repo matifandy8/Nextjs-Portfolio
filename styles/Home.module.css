@@ -1,5 +1,5 @@
 .main {
-  height: 27.5rem;
+  height: 100%;
   padding: 3em 0;
   flex: 1;
   display: flex;
@@ -8,7 +8,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.main img {
+.presentationimage {
   margin: 20px;
   height: 40vmin;
 }
@@ -34,4 +34,42 @@
 }
 .presentation button:hover {
   background-color: rgba(102, 94, 17, 0.802);
+}
+
+.containerskills {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 0px 1em;
+  text-align: center;
+}
+
+.skills {
+  max-width: 900px;
+  background-color: #00000000;
+  box-shadow: 0 3px 20px 3px rgb(0 0 0 / 20%);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
+  grid-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  grid-row-gap: 15px;
+  row-gap: 15px;
+  padding: 40px 20px 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+.skill {
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.skillname {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #8d8d8d;
+  margin: 0.5em;
 }

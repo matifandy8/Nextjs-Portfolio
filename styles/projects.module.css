@@ -8,7 +8,7 @@
   justify-items: center;
 }
 
-.proyect {
+.project {
   text-align: center;
 }
 .name {
@@ -18,12 +18,12 @@
 .technologies {
   color: rgb(179, 179, 179);
 }
-.proyect img {
+.project img {
   cursor: pointer;
   max-width: 15.625em;
   border-radius: 5%;
   border: 10px solid #3a4101;
 }
-.proyect img:hover {
+.project img:hover {
   transform: scale(1.1);
 }
