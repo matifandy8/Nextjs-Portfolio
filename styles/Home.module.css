@@ -44,7 +44,7 @@
 }
 
 .skills {
-  max-width: 900px;
+  width: 100vmin;
   background-color: #00000000;
   box-shadow: 0 3px 20px 3px rgb(0 0 0 / 20%);
   display: grid;

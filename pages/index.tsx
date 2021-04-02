@@ -38,7 +38,7 @@ export default function Home() {
           />
 
           <div className={styles.containerskills}>
-            <h4>Skills</h4>
+            <h2>Skills</h2>
             <div className={styles.skills}>
               <div className={styles.skill}>
                 <h6 className={styles.skillname}>HTML5</h6>

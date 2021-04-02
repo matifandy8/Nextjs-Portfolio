@@ -6,6 +6,7 @@
   grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
   grid-gap: 1em;
   justify-items: center;
+  margin-bottom: 100px;
 }
 
 .project {
@@ -19,8 +20,11 @@
   color: rgb(179, 179, 179);
 }
 .project img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
   cursor: pointer;
-  max-width: 15.625em;
+  max-width: 18.625em;
   border-radius: 5%;
   border: 10px solid #3a4101;
 }

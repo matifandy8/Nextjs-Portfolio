@@ -3,8 +3,8 @@ import { Footer } from "../components/footer";
 import { Toolbar } from "../components/toolbar";
 import styles from "../styles/projects.module.css";
 
-export default function Projects({ projects }) {
-  console.log(projects);
+export default function Projects({ proyects }) {
+  console.log(proyects);
   return (
     <>
       <Head>
@@ -17,11 +17,11 @@ export default function Projects({ projects }) {
         <h1 className={styles.title}>My Projects</h1>
 
         <div className={styles.main}>
-          {projects.map((project) => (
-            <div className={styles.project} key={project.id}>
-              <h2 className={styles.name}>{project.name}</h2>
-              <h5 className={styles.technologies}>{project.technologies}</h5>
-              <img src={project.image} alt="project" />
+          {proyects.map((proyect) => (
+            <div className={styles.project} key={proyect.id}>
+              <h2 className={styles.name}>{proyect.name}</h2>
+              <h5 className={styles.technologies}>{proyect.technologies}</h5>
+              <img src={proyect.image} alt="project" />
             </div>
           ))}
         </div>
@@ -33,14 +33,14 @@ export default function Projects({ projects }) {
 }
 export const getServerSideProps = async (pageContext) => {
   const apiResponse = await fetch(
-    "https://my-json-server.typicode.com/matifandy8/nextjs-portfolio/proyects"
+    "https://my-json-server.typicode.com/matifandy8/nextjs-portfolio/projects"
   );
 
-  const projects = await apiResponse.json();
+  const proyects = await apiResponse.json();
 
   return {
     props: {
-      projects,
+      proyects,
     },
   };
 };
