@@ -55,6 +55,11 @@ export default function Home() {
               className={styles.presentationimage}
               src="https://upgraphy.com/wp-content/uploads/edd/2020/09/web-developer-vector-illustration-5de192c700231.png"
             />
+            <div className={styles.aboutme}>
+              <h2>About Me</h2>
+              <div className={styles.card}></div>
+              <div className={styles.info}></div>
+            </div>
 
             <div className={styles.containerskills}>
               <h2>Skills</h2>

@@ -7,15 +7,15 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-top: 5px solid rgba(252, 236, 7, 0.542);
-  color: white;
+  background-color: var(--black);
+  box-shadow: 0 3px 20px 3px rgb(242 232 0 / 20%);
+  color: var(--white);
   font-size: 1.2rem;
   font-family: "Francois One", sans-serif;
 }
 .logo {
   font-size: 1.55rem;
-  color: rgb(232, 255, 127);
+  color: var(--yellow);
   margin-right: 40%;
 }
 .left {
@@ -42,7 +42,7 @@
   left: 0;
   right: 100%;
   bottom: 0;
-  background: rgba(151, 184, 4, 0.527);
+  background: var(--yellow);
   height: 2px;
   -webkit-transition-property: right;
   transition-property: right;

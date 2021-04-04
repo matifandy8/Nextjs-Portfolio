@@ -1,6 +1,6 @@
 .formContainer h3 {
   font-size: 16px;
-  color: rgb(179, 179, 179);
+  color: var(--gray);
 }
 
 .title {
@@ -19,9 +19,9 @@
   width: 100%;
 }
 .form input {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: var(--black);
   font-size: 16px;
-  color: #333333;
+  color: var(--gray);
   line-height: 1.2;
   display: block;
   width: 100%;
@@ -37,7 +37,7 @@
   height: 120px;
   font-size: 16px;
   line-height: 1.2;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: var(--black);
   display: block;
   padding: 0 0px 0 10px;
   outline: none;
@@ -47,8 +47,8 @@
 .form button {
   cursor: pointer;
   font-size: 16px;
-  color: white;
-  background: #70641d;
+  color: var(--white);
+  background: var(--yellow);
   line-height: 1.2;
   text-transform: uppercase;
   display: flex;

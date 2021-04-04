@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:wght@300&display=swap");
 
+:root {
+  --yellow: rgb(171 156 5);
+  --black: rgb(0, 0, 0);
+  --gray: rgb(179, 179, 179);
+  --white: #ffffff;
+}
+
 html,
 body {
-  background-color: rgb(14, 14, 14);
+  background-color: var(--black);
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -20,5 +27,5 @@ h1 {
 
 * {
   box-sizing: border-box;
-  color: white;
+  color: var(--white);
 }
