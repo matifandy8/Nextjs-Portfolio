@@ -4,6 +4,7 @@ import { Toolbar } from "../components/toolbar";
 import { Footer } from "../components/footer";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
+import Axios from "axios";
 
 type Profile = {
   name: string;
@@ -16,6 +17,15 @@ export default function Home() {
 
   const onSubmit = handleSubmit((data) => {
     alert(JSON.stringify(data));
+    console.log(data.name);
+    Axios({
+      method: "POST",
+      data: {
+        username: data.name,
+        email: data.email,
+      },
+      url: "http://localhost:3040/send-email",
+    }).then((res) => alert(res.data));
   });
 
   return (
