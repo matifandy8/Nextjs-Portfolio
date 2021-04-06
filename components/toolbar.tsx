@@ -7,7 +7,7 @@ export const Toolbar = () => {
   return (
     <div className={styles.main}>
       <div className={styles.logo} onClick={() => router.push("/")}>
-        Matias Fandiño
+        MF
       </div>
       <div className={styles.left}>
         <div onClick={() => router.push("/")}>Home</div>

@@ -8,9 +8,18 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.presentation {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-bottom: 2px solid var(--gray);
+  margin: 100px;
+}
 .presentationimage {
   margin: 20px;
   height: 40vmin;
+  margin: 0px 20px 100px 20px;
 }
 .presentation h1 {
   margin: 0;
@@ -36,14 +45,54 @@
   background-color: var(--yellow);
 }
 
+.aboutme {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.container {
+  width: 100vmin;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 3px 20px 3px rgb(242 232 0 / 20%);
+  height: 400px;
+  align-self: center;
+}
+.card {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(16, 15, 15);
+}
+.info {
+  width: 100%;
+  justify-content: center;
+}
+.info h3 {
+  align-self: center;
+  font-size: 1rem;
+  color: var(--gray);
+  width: 100%;
+  line-height: 1.5em;
+}
+
+@media only screen and (max-width: 992px) {
+}
+
 .containerskills {
-  max-width: 800px;
-  margin: 0px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 0px 1em;
   text-align: center;
 }
 
 .skills {
+  align-self: center;
   width: 100vmin;
   background-color: var(--black);
   box-shadow: 0 3px 20px 3px rgb(242 232 0 / 20%);

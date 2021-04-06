@@ -42,23 +42,40 @@ export default function Home() {
         >
           <div className={styles.main}>
             <div className={styles.presentation}>
-              <h1>Matias Fandiño</h1>
-              <h3>
-                Hello, I am a Front-End developer. I was born in Uruguay in
-                1997. Currently, I am based in Uruguay.
-              </h3>
-              <button className="cv" onClick={saveFile}>
-                Resume
-              </button>
+              <div className={styles.presentationinfo}>
+                <h1>Matias Fandiño</h1>
+                <h3>
+                  Hello, I am a Front-End developer. I was born in Uruguay in
+                  1997. Currently, I am based in Uruguay.
+                </h3>
+                <button className="cv" onClick={saveFile}>
+                  Resume
+                </button>
+              </div>
+
+              <img
+                className={styles.presentationimage}
+                src="https://upgraphy.com/wp-content/uploads/edd/2020/09/web-developer-vector-illustration-5de192c700231.png"
+              />
             </div>
-            <img
-              className={styles.presentationimage}
-              src="https://upgraphy.com/wp-content/uploads/edd/2020/09/web-developer-vector-illustration-5de192c700231.png"
-            />
+
             <div className={styles.aboutme}>
               <h2>About Me</h2>
-              <div className={styles.card}></div>
-              <div className={styles.info}></div>
+              <div className={styles.container}>
+                <div className={styles.card}>
+                  <h3></h3>
+                </div>
+                <div className={styles.info}>
+                  <h3>
+                    I started studying programming in March, 2020. Since then I
+                    have been learning a lot of things every day to further my
+                    skills. I like to learn and try new things. I am a big fan
+                    of learning programing while making productions. I am proud
+                    to say that I always work hard and do my best to live up to
+                    expectations people have for me.
+                  </h3>
+                </div>
+              </div>
             </div>
 
             <div className={styles.containerskills}>
