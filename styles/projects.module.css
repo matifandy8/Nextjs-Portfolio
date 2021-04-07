@@ -26,7 +26,6 @@
   cursor: pointer;
   max-width: 18.625em;
   border-radius: 5%;
-  border: 10px solid var(--yellow);
 }
 .project img:hover {
   transform: scale(1.1);

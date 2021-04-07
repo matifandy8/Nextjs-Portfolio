@@ -5,6 +5,8 @@ import { Footer } from "../components/footer";
 import FileSaver from "file-saver";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 export default function Home() {
   const saveFile = () => {
@@ -63,7 +65,29 @@ export default function Home() {
               <h2>About Me</h2>
               <div className={styles.container}>
                 <div className={styles.card}>
-                  <h3></h3>
+                  <h3>MATIAS FANDIÑO</h3>
+                  <p>23 years old</p>
+                  <p>Web Developer</p>
+                  <div className={styles.social}>
+                    <div>
+                      <div
+                        onClick={() =>
+                          (window.location.href =
+                            "https://github.com/matifandy8")
+                        }
+                      >
+                        <GitHubIcon />
+                      </div>
+                      <div
+                        onClick={() =>
+                          (window.location.href =
+                            "https://www.linkedin.com/in/matias-fandi%C3%B1o/")
+                        }
+                      >
+                        <LinkedInIcon />
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div className={styles.info}>
                   <h3>
