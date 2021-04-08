@@ -58,15 +58,14 @@
   width: 100vmin;
   display: flex;
   flex-direction: column;
-
   box-shadow: 0 3px 20px 3px rgb(242 232 0 / 20%);
-  height: 400px;
   align-self: center;
 }
 .card {
   height: 50%;
   width: 100%;
   background-color: rgb(52 49 6 / 44%);
+  padding: 10px;
 }
 
 .social div {
@@ -90,12 +89,10 @@
   align-self: center;
   font-size: 1rem;
   color: var(--gray);
-  width: 60%;
+  padding: 30px;
+
   margin: auto;
   line-height: 1.5em;
-}
-
-@media only screen and (max-width: 992px) {
 }
 
 .containerskills {
