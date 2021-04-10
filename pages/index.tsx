@@ -2,19 +2,13 @@ import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import { Toolbar } from "../components/toolbar";
 import { Footer } from "../components/footer";
-import FileSaver from "file-saver";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 export default function Home() {
-  const saveFile = () => {
-    FileSaver.saveAs(
-      process.env.REACT_APP_CLIENT_URL + "/resource/MatiasFandiño- Cv.pdf",
-      "Matias Fandiño -  Cv.pdf"
-    );
-  };
+  
   return (
     <>
       <Head>
@@ -50,8 +44,8 @@ export default function Home() {
                   Hello, I am a Front-End developer. I was born in Uruguay in
                   1997. Currently, I am based in Uruguay.
                 </h3>
-                <button className="cv" onClick={saveFile}>
-                  Resume
+                <button className="btnproyects">
+                  Projects
                 </button>
               </div>
 
