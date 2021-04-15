@@ -1,0 +1,9 @@
+.title {
+  text-align: center;
+}
+.articles {
+  padding: 50px;
+}
+.link:hover {
+  color: var(--yellow);
+}

@@ -6,24 +6,24 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 let client = require("contentful").createClient({
-    space: process.env.NEXT_CONTENTFUL_SPACE_ID,
-    accessToken: process.env.NEXT_CONTENTFUL_ACCESS_TOKEN,
-})
+  space: process.env.NEXT_CONTENTFUL_SPACE_ID,
+  accessToken: process.env.NEXT_CONTENTFUL_ACCESS_TOKEN,
+});
 
-export async function getStaticProps(){
-    let data = await client.getEntries({
-        content_type: 'article'
-    })
+export async function getStaticProps() {
+  let data = await client.getEntries({
+    content_type: "article",
+  });
 
-    return {
-        props: {
-            articles: data.items
-        }
-    }
+  return {
+    props: {
+      articles: data.items,
+    },
+  };
 }
 
-export default function Blog({articles}) {
-  console.log(articles)
+export default function Blog({ articles }) {
+  console.log(articles);
 
   return (
     <>
@@ -53,18 +53,18 @@ export default function Blog({articles}) {
           }}
         >
           <div className={styles.blogContainer}>
-           <h1>Blog</h1>
-           <div>
-               <ul>
-                   {articles.map((article) => (
-                       <li key={article.sys.id}>
-                           <Link href={"/blog/" + article.fields.slug}>
-                               <a>{article.fields.title}</a>
-                               </Link>
-                       </li>
-                   ))}
-               </ul>
-           </div>
+            <h1 className={styles.title}>Blog</h1>
+            <div className={styles.articles}>
+              <ul>
+                {articles.map((article) => (
+                  <li key={article.sys.id}>
+                    <Link href={"/blog/" + article.fields.slug}>
+                      <a className={styles.link}>{article.fields.title}</a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </motion.div>
 
