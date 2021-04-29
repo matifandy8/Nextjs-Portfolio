@@ -1,8 +1,9 @@
 import Head from "next/head";
-import { Footer } from "../components/footer";
-import { Toolbar } from "../components/toolbar";
-import styles from "../styles/projects.module.css";
+import { Footer } from "../../components/footer";
+import { Toolbar } from "../../components/toolbar";
+import styles from "../../styles/projects.module.css";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Projects({ proyects }) {
   console.log(proyects);
@@ -37,11 +38,15 @@ export default function Projects({ proyects }) {
 
           <div className={styles.main}>
             {proyects.map((proyect) => (
-              <div className={styles.project} key={proyect.id}>
-                <h2 className={styles.name}>{proyect.name}</h2>
-                <h5 className={styles.technologies}>{proyect.technologies}</h5>
-                <img src={proyect.image} alt="project" />
-              </div>
+              <Link href={"/projects/" + proyect.name} key={proyect.id}>
+                <div className={styles.project} key={proyect.id}>
+                  <h2 className={styles.name}>{proyect.name}</h2>
+                  <h5 className={styles.technologies}>
+                    {proyect.technologies}
+                  </h5>
+                  <img src={proyect.image} alt="project" />
+                </div>
+              </Link>
             ))}
           </div>
         </motion.div>

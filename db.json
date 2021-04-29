@@ -10,28 +10,28 @@
     },
     {
       "id": 2,
-      "name": "Chat Live",
+      "name": "Chat-Live",
       "technologies": "Reactjs, Nodejs, Socketio.",
       "image": "https://i.ibb.co/PTbwrCB/chatlive.png"
       
     },
     {
     "id": 3,
-      "name": "Potfolio Page",
+      "name": "Potfolio-Page",
       "technologies": "Reactjs, Typescript",
       "image": "https://i.ibb.co/JBPqTpF/portfolionextjshome.png"
       
     },
     {
     "id": 4,
-      "name": "Amazon Clone",
+      "name": "Amazon-Clone",
       "technologies": "ReactJs, Redux, Firebase, Paypal-api",
       "image": "https://i.ibb.co/MPGGZ6V/amazon.png"
       
     },
     {
       "id": 5,
-        "name": "Quiz App",
+        "name": "Quiz-App",
         "technologies": "ReactJs, Typescript, Api-trivia, Jest",
         "image": "https://i.ibb.co/y8LMDV5/quiz-typescript.png"
         
