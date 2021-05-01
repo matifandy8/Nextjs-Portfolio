@@ -1,0 +1,14 @@
+.title {
+  text-align: center;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.details img {
+  height: auto;
+  max-height: 500px;
+  max-width: 100%;
+  padding: 25px;
+}

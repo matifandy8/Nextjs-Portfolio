@@ -19,15 +19,16 @@
     "id": 3,
       "name": "Potfolio-Page",
       "technologies": "Reactjs, Typescript",
-      "image": "https://i.ibb.co/JBPqTpF/portfolionextjshome.png"
-      
+      "image": "https://i.ibb.co/JBPqTpF/portfolionextjshome.png",
+      "url": "https://github.com/matifandy8/nextjs-portfolio"
     },
     {
     "id": 4,
-      "name": "Amazon-Clone",
-      "technologies": "ReactJs, Redux, Firebase, Paypal-api",
-      "image": "https://i.ibb.co/MPGGZ6V/amazon.png"
-      
+      "name": "Shortener-Url",
+      "technologies": "NextJs, Redux, FaunaDB",
+      "image": "https://i.ibb.co/JCZNr7W/Shortener-url.png",
+      "url": "https://github.com/matifandy8/shortener-url",
+      "demo": "https://shortenerurl.vercel.app/"
     },
     {
       "id": 5,
