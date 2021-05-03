@@ -5,44 +5,48 @@
       "id": 1,
       "name": "E-mercado",
       "technologies": "Html,Css,Bootstrap,Javascript",
-      "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png"
-     
+      "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png",
+      "github": "https://github.com/matifandy8/e-Mercado",
+      "demo": "https://matifandy8.github.io/e-Mercado/"
     },
     {
       "id": 2,
       "name": "Chat-Live",
       "technologies": "Reactjs, Nodejs, Socketio.",
-      "image": "https://i.ibb.co/PTbwrCB/chatlive.png"
-      
+      "image": "https://i.ibb.co/PTbwrCB/chatlive.png",
+      "github": "https://github.com/matifandy8/Chat-Live-App",
+      "demo": "https://chat-live-client.herokuapp.com/"
     },
     {
     "id": 3,
       "name": "Potfolio-Page",
       "technologies": "Reactjs, Typescript",
       "image": "https://i.ibb.co/JBPqTpF/portfolionextjshome.png",
-      "url": "https://github.com/matifandy8/nextjs-portfolio"
+      "github": "https://github.com/matifandy8/nextjs-portfolio"
     },
     {
     "id": 4,
       "name": "Shortener-Url",
       "technologies": "NextJs, Redux, FaunaDB",
       "image": "https://i.ibb.co/JCZNr7W/Shortener-url.png",
-      "url": "https://github.com/matifandy8/shortener-url",
+      "github": "https://github.com/matifandy8/shortener-url",
       "demo": "https://shortenerurl.vercel.app/"
     },
     {
       "id": 5,
         "name": "Quiz-App",
         "technologies": "ReactJs, Typescript, Api-trivia, Jest",
-        "image": "https://i.ibb.co/y8LMDV5/quiz-typescript.png"
-        
+        "image": "https://i.ibb.co/y8LMDV5/quiz-typescript.png",
+        "github": "https://github.com/matifandy8/quiz-app-react-typescript",
+       "demo": "https://quiztypescript.netlify.app/"
       },
       {
         "id": 6,
           "name": "Ecommerse-Mern",
           "technologies": "ReactJs, Redux, NodeJs, ExpressJs, MongoDb, React-hook-form",
-          "image": "https://i.ibb.co/98Xqdqd/Ecommerse-MERN.png"
-          
+          "image": "https://i.ibb.co/98Xqdqd/Ecommerse-MERN.png",
+          "github": "https://github.com/matifandy8/Ecommerse-Mern",
+      "demo": "https://ecomerse-89fbb.web.app/"
         }
 ]
 }
