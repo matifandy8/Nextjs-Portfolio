@@ -34,6 +34,16 @@ export default function theproject({ project }) {
           <div>
             <h2>{project.name}</h2>
             <h5 className={styles.technologies}>{project.technologies}</h5>
+            <Link href={project.github}>
+              <a target="_blank" className={styles.link}>
+                Code
+              </a>
+            </Link>
+            <Link href={project.demo}>
+              <a target="_blank" className={styles.link}>
+                Demo
+              </a>
+            </Link>
           </div>
 
           <div>
