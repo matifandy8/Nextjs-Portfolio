@@ -5,6 +5,7 @@
       "id": 1,
       "name": "E-mercado",
       "technologies": "Html,Css,Bootstrap,Javascript",
+      "subtitle": "This is a E-commerse which is a my first production created with Javascript.Created in the course (Jovenes a Programar)",
       "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png",
       "github": "https://github.com/matifandy8/e-Mercado",
       "demo": "https://matifandy8.github.io/e-Mercado/"
@@ -21,6 +22,7 @@
     "id": 3,
       "name": "Potfolio-Page",
       "technologies": "Reactjs, Typescript",
+      "subtitle": "This very website you're now watching.NOTE:This application is under construction.",
       "image": "https://i.ibb.co/JBPqTpF/portfolionextjshome.png",
       "github": "https://github.com/matifandy8/nextjs-portfolio"
     },
@@ -36,6 +38,7 @@
       "id": 5,
         "name": "Quiz-App",
         "technologies": "ReactJs, Typescript, Api-trivia, Jest",
+        "subtitle": "This is a Quiz App which is a my first production created with Typescript in React App and Jest to learn how to make unit test.",
         "image": "https://i.ibb.co/y8LMDV5/quiz-typescript.png",
         "github": "https://github.com/matifandy8/quiz-app-react-typescript",
        "demo": "https://quiztypescript.netlify.app/"
@@ -43,6 +46,8 @@
       {
         "id": 6,
           "name": "Ecommerse-Mern",
+          "subtitle": "This is a E-commerse which is a my first production created with MERN Stack.In this Web You can see tech products Buy with Paypal and sell a product.",
+          "used": "I used Node/Express to create a REST API and MongoDB for the data storage.Moreover, I used React, Hooks & React-Router,React-hook-form,Redux,Paypal to accept payments",
           "technologies": "ReactJs, Redux, NodeJs, ExpressJs, MongoDb, React-hook-form",
           "image": "https://i.ibb.co/98Xqdqd/Ecommerse-MERN.png",
           "github": "https://github.com/matifandy8/Ecommerse-Mern",
