@@ -31,9 +31,9 @@ export default function theproject({ project }) {
       >
         <h1 className={styles.title}>Project details</h1>
         <div className={styles.details}>
-          <div>
+          <div className={styles.text}>
             <h2>{project.name}</h2>
-            <h5 className={styles.technologies}>{project.technologies}</h5>
+            <h5 className={styles.subtitle}>{project.subtitle}</h5>
             <Link href={project.github}>
               <a target="_blank" className={styles.link}>
                 Code

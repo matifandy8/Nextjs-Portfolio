@@ -62,6 +62,7 @@ export default function Home() {
                 hear from you for an interview and a possible job offer. Or you
                 can just talk to me. Don't hesitate to contact me.😎
               </h3>
+              <h3>Or email to : matifandy@gmail.com</h3>
             </div>
             <div className={styles.form}>
               <form className="contact-form" onSubmit={sendEmail}>

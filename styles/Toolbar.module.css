@@ -17,6 +17,7 @@
   font-size: 2.55rem;
   color: var(--yellow);
   margin-right: 40%;
+  cursor: pointer;
 }
 .left {
   display: flex;

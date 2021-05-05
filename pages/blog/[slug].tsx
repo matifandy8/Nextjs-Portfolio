@@ -4,6 +4,7 @@ import { Toolbar } from "../../components/toolbar";
 import { Footer } from "../../components/footer";
 import { motion } from "framer-motion";
 import styles from "../../styles/article.module.css";
+import Image from "next/image";
 
 let client = require("contentful").createClient({
   space: process.env.NEXT_CONTENTFUL_SPACE_ID,
@@ -36,7 +37,7 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Article({ article }) {
-  console.log(article);
+  console.log(article.fields.thumbnail.fields.file.details.image.width);
   return (
     <>
       <Head>
@@ -66,6 +67,11 @@ export default function Article({ article }) {
         >
           <div className={styles.article}>
             <h1>{article.fields.title}</h1>
+            <Image
+              src={"https:" + article.fields.thumbnail.fields.file.url}
+              width={article.fields.thumbnail.fields.file.details.image.width}
+              height={article.fields.thumbnail.fields.file.details.image.height}
+            />
             <div>{documentToReactComponents(article.fields.content)}</div>
           </div>
         </motion.div>

@@ -1,6 +1,9 @@
 .title {
   text-align: center;
 }
+.text {
+  width: 300px;
+}
 .details {
   display: flex;
   justify-content: center;
