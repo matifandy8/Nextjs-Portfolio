@@ -4,6 +4,7 @@ import { Toolbar } from "../components/toolbar";
 import { Footer } from "../components/footer";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 let client = require("contentful").createClient({
   space: process.env.NEXT_CONTENTFUL_SPACE_ID,
@@ -55,15 +56,23 @@ export default function Blog({ articles }) {
           <div className={styles.blogContainer}>
             <h1 className={styles.title}>Blog</h1>
             <div className={styles.articles}>
-              <ul>
-                {articles.map((article) => (
-                  <li key={article.sys.id}>
-                    <Link href={"/blog/" + article.fields.slug}>
-                      <a className={styles.link}>{article.fields.title}</a>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              {articles.map((article) => (
+                <div key={article.sys.id} className={styles.article}>
+                  <Image
+                    src={"https:" + article.fields.thumbnail.fields.file.url}
+                    width={
+                      article.fields.thumbnail.fields.file.details.image.width
+                    }
+                    height={
+                      article.fields.thumbnail.fields.file.details.image.height
+                    }
+                  />
+                  <h2 className={styles.link}>{article.fields.title}</h2>
+                  <Link href={"/blog/" + article.fields.slug}>
+                    <a className={styles.btnarticle}>Continue Reading</a>
+                  </Link>
+                </div>
+              ))}
             </div>
           </div>
         </motion.div>

@@ -38,11 +38,11 @@
   padding: 0.4em;
   font-size: 1.5rem;
   border: none;
-  background-color: var(--black);
+  background-color: rgb(39, 39, 39);
   border-radius: 10px;
 }
 .presentation button:hover {
-  background-color: var(--yellow);
+  background-color: rgb(68, 68, 0);
 }
 
 .aboutme {

@@ -4,6 +4,28 @@
 .articles {
   padding: 50px;
 }
-.link:hover {
-  color: var(--yellow);
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 450px;
+  text-align: center;
+}
+.link {
+  font-size: 20px;
+}
+
+.btnarticle {
+  cursor: pointer;
+  width: 200px;
+  font-family: "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0.4em;
+  font-size: 1.5rem;
+  border: none;
+  background-color: rgb(39, 39, 39);
+  border-radius: 10px;
+  align-self: center;
+}
+.btnarticle:hover {
+  background-color: rgb(68, 68, 0);
 }
