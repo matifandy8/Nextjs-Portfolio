@@ -8,7 +8,6 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 export default function Home() {
-  
   return (
     <>
       <Head>
@@ -44,9 +43,7 @@ export default function Home() {
                   Hello, I am a Front-End developer. I was born in Uruguay in
                   1997. Currently, I am based in Uruguay.
                 </h3>
-                <button className="btnproyects">
-                  Projects
-                </button>
+                <button className="btnproyects">Projects</button>
               </div>
 
               <img
@@ -119,6 +116,16 @@ export default function Home() {
                   />
                 </div>
                 <div className={styles.skill}>
+                  <h6 className={styles.skillname}>Sass</h6>
+
+                  <Image
+                    className={styles.skillimage}
+                    src="/sass.png"
+                    width={50}
+                    height={50}
+                  />
+                </div>
+                <div className={styles.skill}>
                   <h6 className={styles.skillname}>Javascript</h6>
 
                   <Image
@@ -144,6 +151,16 @@ export default function Home() {
                   <Image
                     className={styles.skillimage}
                     src="/redux.png"
+                    width={50}
+                    height={50}
+                  />
+                </div>
+                <div className={styles.skill}>
+                  <h6 className={styles.skillname}>Next</h6>
+
+                  <Image
+                    className={styles.skillimage}
+                    src="/next.png"
                     width={50}
                     height={50}
                   />
