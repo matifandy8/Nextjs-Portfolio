@@ -205,6 +205,26 @@ export default function Home() {
                     height={50}
                   />
                 </div>
+                <div className={styles.skill}>
+                  <h6 className={styles.skillname}>Graphql</h6>
+
+                  <Image
+                    className={styles.skillimage}
+                    src="/graphql.png"
+                    width={50}
+                    height={50}
+                  />
+                </div>
+                <div className={styles.skill}>
+                  <h6 className={styles.skillname}>Postgresql</h6>
+
+                  <Image
+                    className={styles.skillimage}
+                    src="/postgresql.png"
+                    width={50}
+                    height={50}
+                  />
+                </div>
               </div>
             </div>
           </div>

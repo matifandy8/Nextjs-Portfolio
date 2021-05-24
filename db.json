@@ -52,6 +52,15 @@
           "image": "https://i.ibb.co/98Xqdqd/Ecommerse-MERN.png",
           "github": "https://github.com/matifandy8/Ecommerse-Mern",
       "demo": "https://ecomerse-89fbb.web.app/"
-        }
+        },
+        {
+          "id": 7,
+            "name": "Jobox - Project under development",
+            "subtitle": "This is a Job portal which is a my first production using Postgresql.In this Web You can see IT jobs",
+            "used": "I used Node/Express to create a REST API and Postgresql for the data storage.Moreover, I used React,Typescript, Hooks & React-Router,React-hook-form,Github jobs",
+            "technologies": "Typescript, ReactJs,  NodeJs, ExpressJs, Postgresql, React-hook-form",
+            "image": "https://i.ibb.co/wMQWKXv/jobportal.png",
+            "github": "https://github.com/matifandy8/job-portal"
+          }
 ]
 }
