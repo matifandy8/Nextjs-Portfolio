@@ -4,8 +4,10 @@ import { Toolbar } from "../components/toolbar";
 import { Footer } from "../components/footer";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
+  import swal from 'sweetalert';
 
 export default function Home() {
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -19,9 +21,16 @@ export default function Home() {
       .then(
         (result) => {
           console.log(result.text);
+          swal({
+            title: "Good job!",
+            text: "Message sent!",
+            icon: "success",
+          });
         },
         (error) => {
           console.log(error.text);
+          swal("Oh noes!", "Message sent failed!", "error");
+
         }
       );
     e.target.reset();
@@ -73,7 +82,7 @@ export default function Home() {
                 <input type="email" name="email" />
                 <label>Message</label>
                 <textarea name="message" />
-                <input className="btn" type="submit" value="Send" />
+                <input  type="submit" value="Send" />
               </form>
             </div>
           </div>

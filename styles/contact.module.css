@@ -61,3 +61,10 @@
   border-radius: 10px;
   margin-bottom: 1rem;
 }
+.form input[type="submit"]{
+  background-color: rgb(39, 39, 39);
+  cursor: pointer;
+}
+.form input[type="submit"]:hover{
+  background-color: rgb(68, 68, 0);
+}

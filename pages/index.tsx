@@ -180,7 +180,7 @@ export default function Home() {
 
                   <Image
                     className={styles.skillimage}
-                    src="/express.png"
+                    src="/expressjs.png"
                     width={50}
                     height={50}
                   />
@@ -216,11 +216,11 @@ export default function Home() {
                   />
                 </div>
                 <div className={styles.skill}>
-                  <h6 className={styles.skillname}>Postgresql</h6>
+                  <h6 className={styles.skillname}>PostgreSql</h6>
 
                   <Image
                     className={styles.skillimage}
-                    src="/postgresql.png"
+                    src="/postgreSql.png"
                     width={50}
                     height={50}
                   />
