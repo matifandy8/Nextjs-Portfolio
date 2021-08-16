@@ -20,14 +20,6 @@
     },
     {
     "id": 3,
-      "name": "Potfolio-Page",
-      "technologies": "Reactjs, Typescript",
-      "subtitle": "This very website you're now watching.NOTE:This application is under construction.",
-      "image": "https://i.ibb.co/JBPqTpF/portfolionextjshome.png",
-      "github": "https://github.com/matifandy8/nextjs-portfolio"
-    },
-    {
-    "id": 4,
       "name": "Shortener-Url",
       "technologies": "NextJs, Redux, FaunaDB",
       "image": "https://i.ibb.co/JCZNr7W/Shortener-url.png",
@@ -35,7 +27,7 @@
       "demo": "https://shortenerurl.vercel.app/"
     },
     {
-      "id": 5,
+      "id": 4,
         "name": "Quiz-App",
         "technologies": "ReactJs, Typescript, Api-trivia, Jest",
         "subtitle": "This is a Quiz App which is a my first production created with Typescript in React App and Jest to learn how to make unit test.",
@@ -44,7 +36,7 @@
        "demo": "https://quiztypescript.netlify.app/"
       },
       {
-        "id": 6,
+        "id": 5,
           "name": "Ecommerse-Mern",
           "subtitle": "This is a E-commerse which is a my first production created with MERN Stack.In this Web You can see tech products Buy with Paypal and sell a product.",
           "used": "I used Node/Express to create a REST API and MongoDB for the data storage.Moreover, I used React, Hooks & React-Router,React-hook-form,Redux,Paypal to accept payments",
@@ -54,13 +46,14 @@
       "demo": "https://ecomerse-89fbb.web.app/"
         },
         {
-          "id": 7,
-            "name": "Jobox - Project under development",
-            "subtitle": "This is a Job portal which is a my first production using Postgresql.In this Web You can see IT jobs",
-            "used": "I used Node/Express to create a REST API and Postgresql for the data storage.Moreover, I used React,Typescript, Hooks & React-Router,React-hook-form,Github jobs",
-            "technologies": "Typescript, ReactJs,  NodeJs, ExpressJs, Postgresql, React-hook-form",
-            "image": "https://i.ibb.co/wMQWKXv/jobportal.png",
-            "github": "https://github.com/matifandy8/job-portal"
+          "id": 6,
+            "name": "Superhero Api- Challenge Alkemy",
+            "subtitle": "Challenge to enter in Alkemy",
+            "used": "I used ReactJs,Redux and Bootstrap",
+            "technologies": "ReactJs, Redux, Bootstrap",
+            "image": "https://i.ibb.co/6NBCq84/challengealkemy.png",
+            "github": "https://github.com/matifandy8/Superhero-React",
+        "demo": "https://superhero-react-ten.vercel.app/"
           }
 ]
 }
