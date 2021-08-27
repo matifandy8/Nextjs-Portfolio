@@ -39,24 +39,17 @@ export default function Home() {
             <div className={styles.presentation}>
               <div className={styles.presentationinfo}>
                 <h1>Matias Fandiño</h1>
-                <h3>
-                  Hello, I am a Front-End developer. I was born in Uruguay in
-                  1997. Currently, I am based in Uruguay.
-                </h3>
+                <h2>
+                  Front-End developer.
+                </h2>
                 <button className="btnproyects">Projects</button>
               </div>
-
-              <img
-                className={styles.presentationimage}
-                src="https://upgraphy.com/wp-content/uploads/edd/2020/09/web-developer-vector-illustration-5de192c700231.png"
-              />
             </div>
 
             <div className={styles.aboutme}>
               <h2>About Me</h2>
               <div className={styles.container}>
                 <div className={styles.card}>
-                  <h3>MATIAS FANDIÑO</h3>
                   <p>23 years old</p>
                   <p>Web Developer</p>
                   <div className={styles.social}>

@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +13,7 @@
   height: 100%;
   background-color: var(--black);
   color: var(--white);
-  font-family: "Francois One", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
 }
 .column {
   margin: 0.9375rem;

@@ -62,9 +62,23 @@
   margin-bottom: 1rem;
 }
 .form input[type="submit"]{
-  background-color: rgb(39, 39, 39);
-  cursor: pointer;
+  margin-top: 30px;
+  background-color: #d1c409;
+  font-family: Maison Neue,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-size: .8125rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 0 15px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    width: 200px;
+    color: #000;
+    display: block;
 }
 .form input[type="submit"]:hover{
-  background-color: rgb(68, 68, 0);
+  background-color: #968c08;
 }

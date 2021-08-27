@@ -77,12 +77,12 @@ export default function Home() {
               <form className="contact-form" onSubmit={sendEmail}>
                 <input type="hidden" name="contact_number" />
                 <label>Name</label>
-                <input type="text" name="name" />
+                <input type="text" name="name" placeholder="Write your Name" required/>
                 <label>Email</label>
-                <input type="email" name="email" />
+                <input type="email" name="email" placeholder="Write your Email" required/>
                 <label>Message</label>
-                <textarea name="message" />
-                <input  type="submit" value="Send" />
+                <textarea name="message" placeholder="Write your Message" required/>
+                <input  type="submit" value="Send"/>
               </form>
             </div>
           </div>
