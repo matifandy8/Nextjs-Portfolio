@@ -6,6 +6,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import Link from 'next/link'
+
 
 export default function Home() {
   return (
@@ -42,7 +44,9 @@ export default function Home() {
                 <h2>
                   Front-End developer.
                 </h2>
-                <button className="btnproyects">Projects</button>
+                <Link href="/projects">
+                <a>Go to Projects</a>
+               </Link>
               </div>
             </div>
 

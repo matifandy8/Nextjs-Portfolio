@@ -14,6 +14,7 @@
       "id": 2,
       "name": "Chat-Live",
       "technologies": "Reactjs, Nodejs, Socketio.",
+      "subtitle": "Live chat is an online communication app that enables you and your website visitors to chat in real-time.I used Node/Socket-io and Reactjs in the Frontend",
       "image": "https://i.ibb.co/PTbwrCB/chatlive.png",
       "github": "https://github.com/matifandy8/Chat-Live-App",
       "demo": "https://chat-live-client.herokuapp.com/"
@@ -22,6 +23,7 @@
     "id": 3,
       "name": "Shortener-Url",
       "technologies": "NextJs, Redux, FaunaDB",
+      "subtitle": "Is a url shortener to reduce a long link. Use our tool to shorten links and then share them.I used Next js,Redux for state management and faunadb as database.",
       "image": "https://i.ibb.co/JCZNr7W/Shortener-url.png",
       "github": "https://github.com/matifandy8/shortener-url",
       "demo": "https://shortenerurl.vercel.app/"
@@ -48,7 +50,7 @@
         {
           "id": 6,
             "name": "Superhero Api- Challenge Alkemy",
-            "subtitle": "Challenge to enter in Alkemy",
+            "subtitle": "Challenge to enter in Alkemy. I used ReactJs,Redux and Bootstrap",
             "used": "I used ReactJs,Redux and Bootstrap",
             "technologies": "ReactJs, Redux, Bootstrap",
             "image": "https://i.ibb.co/6NBCq84/challengealkemy.png",

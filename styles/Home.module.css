@@ -1,6 +1,6 @@
 .main {
   height: 100%;
-  padding: 3em 0;
+  padding: 4.5em 0;
   flex: 1; 
   
   display: flex;
@@ -35,7 +35,7 @@
   text-align: center;
 
 }
-.presentation button {
+.presentation a {
   margin-top: 30px;
   background-color: #d1c409;
   font-family: Maison Neue,sans-serif;
@@ -53,7 +53,7 @@
     color: #000;
     display: block;
 }
-.presentation button:hover {
+.presentation a:hover {
   background-color: #968c08;
 }
 
