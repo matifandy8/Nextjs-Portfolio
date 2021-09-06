@@ -153,6 +153,16 @@ export default function Home() {
                   />
                 </div>
                 <div className={styles.skill}>
+                  <h6 className={styles.skillname}>Typescript</h6>
+
+                  <Image
+                    className={styles.skillimage}
+                    src="/typescript.png"
+                    width={50}
+                    height={50}
+                  />
+                </div>
+                <div className={styles.skill}>
                   <h6 className={styles.skillname}>Next</h6>
 
                   <Image
