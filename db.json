@@ -30,12 +30,13 @@
     },
     {
       "id": 4,
-        "name": "Quiz-App",
-        "technologies": "ReactJs, Typescript, Api-trivia, Jest",
-        "subtitle": "This is a Quiz App which is a my first production created with Typescript in React App and Jest to learn how to make unit test.",
-        "image": "https://i.ibb.co/y8LMDV5/quiz-typescript.png",
-        "github": "https://github.com/matifandy8/quiz-app-react-typescript",
-       "demo": "https://quiztypescript.netlify.app/"
+        "name": "Windows-Xp",
+        "technologies": "ReactJs, Typescript",
+        "subtitle": "This is a Copy of one of the most famous desktops of Windows.",
+        "used": "I used ReactJs with Typescript",
+        "image": "https://i.ibb.co/pRZ4sqM/windowsxp.png",
+        "github": "https://github.com/matifandy8/Windows-XP",
+       "demo": "https://windows-xp-psi.vercel.app/"
       },
       {
         "id": 5,
