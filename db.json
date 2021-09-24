@@ -57,6 +57,16 @@
             "image": "https://i.ibb.co/6NBCq84/challengealkemy.png",
             "github": "https://github.com/matifandy8/Superhero-React",
         "demo": "https://superhero-react-ten.vercel.app/"
+          },
+          {
+          "id": 7,
+            "name": "Cripto-app",
+            "subtitle": "Cripto currencies list with information in real time.",
+            "used": " I used ReactJs with Typescript,Redux with redux-thunk redux toolkit,React-hook-form.Backend api with Node and auth with Node,Mongo ",
+            "technologies": "Typescript ,ReactJs, Redux, Redux-thunk, Redux toolkit, Axios ,React-hook-form, Node, Express, Mongo",
+            "image": "https://i.ibb.co/xmX76rD/cripto.png",
+            "github": "https://github.com/matifandy8/cripto-app",
+        "demo": "https://cripto-five.vercel.app/"
           }
 ]
 }
