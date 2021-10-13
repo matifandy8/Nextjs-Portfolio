@@ -3,24 +3,15 @@
     "projects": [
     {
       "id": 1,
-      "name": "E-mercado",
-      "technologies": "Html,Css,Bootstrap,Javascript",
-      "subtitle": "This is a E-commerse which is a my first production created with Javascript.Created in the course (Jovenes a Programar)",
-      "image": "https://raw.githubusercontent.com/matifandy8/Portfolio-Page/master/img/eMercado%20-%20Jap.png",
-      "github": "https://github.com/matifandy8/e-Mercado",
-      "demo": "https://matifandy8.github.io/e-Mercado/"
+      "name": "Nft-Eco",
+      "technologies": "Typescript,React,Redux,Supabase,Sass,react-hook-form,yup",
+      "subtitle": "This is a E-commerse of Nfts",
+      "image": "https://i.ibb.co/vk6191G/NFT-Ecommerse.png",
+      "github": "https://github.com/matifandy8/NFT-Marketplace",
+      "demo": "https://nft-eco.netlify.app/"
     },
     {
-      "id": 2,
-      "name": "Chat-Live",
-      "technologies": "Reactjs, Nodejs, Socketio.",
-      "subtitle": "Live chat is an online communication app that enables you and your website visitors to chat in real-time.I used Node/Socket-io and Reactjs in the Frontend",
-      "image": "https://i.ibb.co/PTbwrCB/chatlive.png",
-      "github": "https://github.com/matifandy8/Chat-Live-App",
-      "demo": "https://chat-live-client.herokuapp.com/"
-    },
-    {
-    "id": 3,
+    "id": 2,
       "name": "Shortener-Url",
       "technologies": "NextJs, Redux, FaunaDB",
       "subtitle": "Is a url shortener to reduce a long link. Use our tool to shorten links and then share them.I used Next js,Redux for state management and faunadb as database.",
@@ -29,7 +20,7 @@
       "demo": "https://shortenerurl.vercel.app/"
     },
     {
-      "id": 4,
+      "id": 3,
         "name": "Windows-Xp",
         "technologies": "ReactJs, Typescript",
         "subtitle": "This is a Copy of one of the most famous desktops of Windows.",
@@ -39,7 +30,7 @@
        "demo": "https://windows-xp-psi.vercel.app/"
       },
       {
-        "id": 5,
+        "id": 4,
           "name": "Ecommerse-Mern",
           "subtitle": "This is a E-commerse which is a my first production created with MERN Stack.In this Web You can see tech products Buy with Paypal and sell a product.",
           "used": "I used Node/Express to create a REST API and MongoDB for the data storage.Moreover, I used React, Hooks & React-Router,React-hook-form,Redux,Paypal to accept payments",
@@ -49,7 +40,7 @@
       "demo": "https://ecomerse-89fbb.web.app/"
         },
         {
-          "id": 6,
+          "id": 5,
             "name": "Superhero Api- Challenge Alkemy",
             "subtitle": "Challenge to enter in Alkemy. I used ReactJs,Redux and Bootstrap",
             "used": "I used ReactJs,Redux and Bootstrap",
@@ -59,7 +50,7 @@
         "demo": "https://superhero-react-ten.vercel.app/"
           },
           {
-          "id": 7,
+          "id": 6,
             "name": "Cripto-app",
             "subtitle": "Cripto currencies list with information in real time.",
             "used": " I used ReactJs with Typescript,Redux with redux-thunk redux toolkit,React-hook-form.Backend api with Node and auth with Node,Mongo ",
