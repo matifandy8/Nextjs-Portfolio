@@ -1,63 +1,71 @@
 
 {
-    "projects": [
+  "projects": [
     {
       "id": 1,
-      "name": "Nft-Eco",
-      "technologies": "Typescript,React,Redux,Supabase,Sass,react-hook-form,yup",
-      "subtitle": "This is a E-commerse of Nfts",
-      "image": "https://i.ibb.co/vk6191G/NFT-Ecommerse.png",
-      "github": "https://github.com/matifandy8/NFT-Marketplace",
-      "demo": "https://nft-eco.netlify.app/"
+      "name": "Back-Projects",
+      "technologies": "Typescript,React,NodeJs,Express,Mongo,SocketIo,Cheerio",
+      "subtitle": "This is a Project to show a four Backend projects with client side",
+      "image": "https://i.ibb.co/7ycGrC8/backprojects.png",
+      "github": "https://github.com/matifandy8/Backend-Projects"
     },
-    {
+  {
     "id": 2,
-      "name": "Shortener-Url",
-      "technologies": "NextJs, Redux, FaunaDB",
-      "subtitle": "Is a url shortener to reduce a long link. Use our tool to shorten links and then share them.I used Next js,Redux for state management and faunadb as database.",
-      "image": "https://i.ibb.co/JCZNr7W/Shortener-url.png",
-      "github": "https://github.com/matifandy8/shortener-url",
-      "demo": "https://shortenerurl.vercel.app/"
+    "name": "Nft-Eco",
+    "technologies": "Typescript,React,Redux,Supabase,Sass,react-hook-form,yup",
+    "subtitle": "This is a E-commerse of Nfts",
+    "image": "https://i.ibb.co/vk6191G/NFT-Ecommerse.png",
+    "github": "https://github.com/matifandy8/NFT-Marketplace",
+    "demo": "https://nft-eco.netlify.app/"
+  },
+  {
+  "id": 3,
+    "name": "Shortener-Url",
+    "technologies": "NextJs, Redux, FaunaDB",
+    "subtitle": "Is a url shortener to reduce a long link. Use our tool to shorten links and then share them.I used Next js,Redux for state management and faunadb as database.",
+    "image": "https://i.ibb.co/JCZNr7W/Shortener-url.png",
+    "github": "https://github.com/matifandy8/shortener-url",
+    "demo": "https://shortenerurl.vercel.app/"
+  },
+  {
+    "id": 4,
+      "name": "Windows-Xp",
+      "technologies": "ReactJs, Typescript",
+      "subtitle": "This is a Copy of one of the most famous desktops of Windows.",
+      "used": "I used ReactJs with Typescript",
+      "image": "https://i.ibb.co/pRZ4sqM/windowsxp.png",
+      "github": "https://github.com/matifandy8/Windows-XP",
+     "demo": "https://windows-xp-psi.vercel.app/"
     },
     {
-      "id": 3,
-        "name": "Windows-Xp",
-        "technologies": "ReactJs, Typescript",
-        "subtitle": "This is a Copy of one of the most famous desktops of Windows.",
-        "used": "I used ReactJs with Typescript",
-        "image": "https://i.ibb.co/pRZ4sqM/windowsxp.png",
-        "github": "https://github.com/matifandy8/Windows-XP",
-       "demo": "https://windows-xp-psi.vercel.app/"
+      "id": 5,
+        "name": "Ecommerse-Mern",
+        "subtitle": "This is a E-commerse which is a my first production created with MERN Stack.In this Web You can see tech products Buy with Paypal and sell a product.",
+        "used": "I used Node/Express to create a REST API and MongoDB for the data storage.Moreover, I used React, Hooks & React-Router,React-hook-form,Redux,Paypal to accept payments",
+        "technologies": "ReactJs, Redux, NodeJs, ExpressJs, MongoDb, React-hook-form",
+        "image": "https://i.ibb.co/98Xqdqd/Ecommerse-MERN.png",
+        "github": "https://github.com/matifandy8/Ecommerse-Mern",
+    "demo": "https://ecomerse-89fbb.web.app/"
       },
       {
-        "id": 4,
-          "name": "Ecommerse-Mern",
-          "subtitle": "This is a E-commerse which is a my first production created with MERN Stack.In this Web You can see tech products Buy with Paypal and sell a product.",
-          "used": "I used Node/Express to create a REST API and MongoDB for the data storage.Moreover, I used React, Hooks & React-Router,React-hook-form,Redux,Paypal to accept payments",
-          "technologies": "ReactJs, Redux, NodeJs, ExpressJs, MongoDb, React-hook-form",
-          "image": "https://i.ibb.co/98Xqdqd/Ecommerse-MERN.png",
-          "github": "https://github.com/matifandy8/Ecommerse-Mern",
-      "demo": "https://ecomerse-89fbb.web.app/"
+        "id": 6,
+          "name": "Superhero Api- Challenge Alkemy",
+          "subtitle": "Challenge to enter in Alkemy. I used ReactJs,Redux and Bootstrap",
+          "used": "I used ReactJs,Redux and Bootstrap",
+          "technologies": "ReactJs, Redux, Bootstrap",
+          "image": "https://i.ibb.co/6NBCq84/challengealkemy.png",
+          "github": "https://github.com/matifandy8/Superhero-React",
+      "demo": "https://superhero-react-ten.vercel.app/"
         },
         {
-          "id": 5,
-            "name": "Superhero Api- Challenge Alkemy",
-            "subtitle": "Challenge to enter in Alkemy. I used ReactJs,Redux and Bootstrap",
-            "used": "I used ReactJs,Redux and Bootstrap",
-            "technologies": "ReactJs, Redux, Bootstrap",
-            "image": "https://i.ibb.co/6NBCq84/challengealkemy.png",
-            "github": "https://github.com/matifandy8/Superhero-React",
-        "demo": "https://superhero-react-ten.vercel.app/"
-          },
-          {
-          "id": 6,
-            "name": "Cripto-app",
-            "subtitle": "Cripto currencies list with information in real time.",
-            "used": " I used ReactJs with Typescript,Redux with redux-thunk redux toolkit,React-hook-form.Backend api with Node and auth with Node,Mongo ",
-            "technologies": "Typescript ,ReactJs, Redux, Redux-thunk, Redux toolkit, Axios ,React-hook-form, Node, Express, Mongo",
-            "image": "https://i.ibb.co/xmX76rD/cripto.png",
-            "github": "https://github.com/matifandy8/cripto-app",
-        "demo": "https://cripto-five.vercel.app/"
-          }
+        "id": 7,
+          "name": "Cripto-app",
+          "subtitle": "Cripto currencies list with information in real time.",
+          "used": " I used ReactJs with Typescript,Redux with redux-thunk redux toolkit,React-hook-form.Backend api with Node and auth with Node,Mongo ",
+          "technologies": "Typescript ,ReactJs, Redux, Redux-thunk, Redux toolkit, Axios ,React-hook-form, Node, Express, Mongo",
+          "image": "https://i.ibb.co/xmX76rD/cripto.png",
+          "github": "https://github.com/matifandy8/cripto-app",
+      "demo": "https://cripto-five.vercel.app/"
+        }
 ]
 }
