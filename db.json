@@ -66,6 +66,15 @@
           "image": "https://i.ibb.co/xmX76rD/cripto.png",
           "github": "https://github.com/matifandy8/cripto-app",
       "demo": "https://cripto-five.vercel.app/"
+        },
+        {
+          "id": 8,
+            "name": "News-Page",
+            "subtitle": "Landing page about news with channels and headlines.",
+            "used": " I used Nextjs with Typescript,Api with Graphql with apollo and Chakra-ui ",
+            "technologies": "Typescript ,ReactJs, Nextjs , Graphql, Apollo, Chakra-ui",
+            "image": "https://i.ibb.co/GnRjqDj/News-Page.png",
+            "github": "https://github.com/matifandy8/News-page"
         }
 ]
 }
