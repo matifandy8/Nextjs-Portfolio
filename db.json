@@ -77,6 +77,16 @@
             "image": "https://i.ibb.co/GnRjqDj/News-Page.png",
             "github": "https://github.com/matifandy8/News-page",
             "demo": "#"
+        },
+        {
+          "id": 9,
+            "name": "Terminal-Portfolio",
+            "subtitle": "Terminal you can use to see my information.",
+            "used": " I used Reactjs with Typescript,Sass",
+            "technologies": "Typescript ,ReactJs, Nextjs , Sass",
+            "image": "https://i.ibb.co/CwBCP4K/terminal.png",
+            "github": "https://github.com/matifandy8/Terminal",
+            "demo": "#"
         }
 ]
 }
