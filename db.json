@@ -1,6 +1,7 @@
 
 {
   "projects": [
+    {
        "id": 1,
       "name": "Windows-Xp",
       "technologies": "ReactJs, Typescript",
@@ -37,8 +38,6 @@
       "github": "https://github.com/matifandy8/Backend-Projects",
       "demo": "#"
     },
-  {
- 
     {
       "id": 5,
         "name": "Ecommerse-Mern",
