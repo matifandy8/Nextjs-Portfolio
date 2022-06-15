@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Nft-Eco",
-    "technologies": "Typescript,React,Redux,Supabase,Sass,react-hook-form,yup",
+    "technologies": "Typescript, React, Redux, Supabase, Sass, react-hook-form, yup",
     "subtitle": "This is a E-commerse of Nfts",
     "image": "https://i.ibb.co/vk6191G/NFT-Ecommerse.png",
     "github": "https://github.com/matifandy8/NFT-Marketplace",
@@ -32,7 +32,7 @@
  {
       "id": 4,
       "name": "Back-Projects",
-      "technologies": "Typescript,React,NodeJs,Express,Mongo,SocketIo,Cheerio",
+      "technologies": "Typescript, React, NodeJs, Express, Mongo, SocketIo, Cheerio",
       "subtitle": "This is a Project to show a four Backend projects with client side",
       "image": "https://i.ibb.co/7ycGrC8/backprojects.png",
       "github": "https://github.com/matifandy8/Backend-Projects",
@@ -52,7 +52,7 @@
         "id": 6,
           "name": "Superhero Api- Challenge Alkemy",
           "subtitle": "Challenge to enter in Alkemy. I used ReactJs,Redux and Bootstrap",
-          "used": "I used ReactJs,Redux and Bootstrap",
+          "used": "I used ReactJs, Redux and Bootstrap",
           "technologies": "ReactJs, Redux, Bootstrap",
           "image": "https://i.ibb.co/6NBCq84/challengealkemy.png",
           "github": "https://github.com/matifandy8/Superhero-React",
@@ -82,8 +82,8 @@
           "id": 9,
             "name": "Terminal-Portfolio",
             "subtitle": "Terminal you can use to see my information.",
-            "used": " I used Reactjs with Typescript,Sass",
-            "technologies": "Typescript ,ReactJs, Nextjs , Sass",
+            "used": " I used Reactjs with Typescript, Sass",
+            "technologies": "Typescript, ReactJs, Nextjs, Sass",
             "image": "https://i.ibb.co/CwBCP4K/terminal.png",
             "github": "https://github.com/matifandy8/Terminal",
             "demo": "#"
